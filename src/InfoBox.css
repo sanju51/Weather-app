@@ -1,0 +1,17 @@
+.InfoBox{
+    text-align: center;
+}
+
+.cardContainer{
+    display:flex;
+    justify-content: center;
+}
+
+#city:hover, 
+#city:focus {
+    background-color: rgba(173, 216, 230, 0.6); /* Light blue fill */
+    box-shadow: 0 0 12px rgba(173, 216, 230, 0.9); /* Light blue glow */
+    border: 1px solid rgba(173, 216, 230, 0.8); /* Optional: border color */
+    outline: none; /* Removes default focus outline */
+}
+
